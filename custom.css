@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 9px;
+}
+
+.container a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+}
+
+#logo {
+    width: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container a:hover{
+    text-decoration: underline;
+}
+
+.nav {
+    margin: 0 auto;
+    margin-right: 500px;
+}
+
+.secondnav {
+    margin: 0 auto;
+}
+
+.container a::after {
+    text-decoration: underline;
+    transition: 3s;
+}
+
+#slider {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    position: relative;
+}
+
+.sliderp{
+    position: absolute;
+    margin-top: 5em;
+    margin-right: 30em;
+}
+
+.spots{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    text-align: center;
+}
+
+
+.spots a {
+    display: block;
+    justify-content: space-around;
+    width: 120px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(59, 113, 160);
+    margin-top: 3px;
+}
+
+.spotarea{
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 5em;
+   
+}
+
+.spotproduct{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 1em;
+    margin-bottom: 5em;
+    text-align: left;
+}
+
+.spotproduct a{
+    color:  rgb(59, 113, 160);
+}
+
