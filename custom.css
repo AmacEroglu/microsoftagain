@@ -27,7 +27,7 @@ body {
     margin: 0 auto;
 }
 
-.container a:hover{
+.container a:hover {
     text-decoration: underline;
 }
 
@@ -52,13 +52,41 @@ body {
     position: relative;
 }
 
-.sliderp{
+#slidersecond {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    position: relative;
+}
+
+.sliderp {
     position: absolute;
     margin-top: 5em;
     margin-right: 30em;
 }
 
-.spots{
+.sliderx {
+    position: absolute;
+    margin-top: 7em;
+    margin-right: 40em;
+}
+
+.headcontainer{
+    width: 1000px;
+    position: relative;
+    background-color: red;
+    margin-bottom: 5em;
+    display: flex;
+}
+
+#sliderhead{
+    position: absolute;
+    margin-left: 15em;
+    margin-bottom: 10em;
+
+}
+
+.spots {
     display: flex;
     justify-content: center;
     margin-top: 2em;
@@ -76,14 +104,20 @@ body {
     margin-top: 3px;
 }
 
-.spotarea{
+.spotarea {
     margin: 0 auto;
     width: 1000px;
     margin-top: 5em;
-   
 }
 
-.spotproduct{
+.spotareasecond {
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 5em;
+
+}
+
+.spotproduct {
     display: inline-block;
     justify-content: center;
     margin-left: 1em;
@@ -91,7 +125,33 @@ body {
     text-align: left;
 }
 
-.spotproduct a{
-    color:  rgb(59, 113, 160);
+.spotproduct a {
+    color: rgb(59, 113, 160);
 }
 
+.button {
+    background-color: rgb(51, 96, 201);
+    color: white;
+    cursor: pointer;
+}
+
+.containerfooter {
+    display: flex;
+    width: 0 auto;
+    background-color: rgb(217, 214, 214);
+    padding-left: 16em;
+    padding-bottom: 15em;
+}
+
+.footer {
+    color: rgb(77, 76, 76) ;
+}
+
+.footer a {
+    display: block;
+    color: gray;
+}
+
+.list{
+    padding-top: 5px;
+}
